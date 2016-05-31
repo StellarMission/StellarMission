@@ -1,0 +1,12 @@
+switch(action)
+{
+    case 0:
+        draw_sprite(government_active, 0, 100,100);
+        break;
+
+    case 1:
+        // define what happens
+        break;
+
+
+}
