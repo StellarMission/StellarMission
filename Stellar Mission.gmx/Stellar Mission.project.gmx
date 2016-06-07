@@ -4,75 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\gameBGM</sound>
-    <sound>sound\OnClick</sound>
-    <sound>sound\titleBGM</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\farm_active</sprite>
-    <sprite>sprites\farm_inactive</sprite>
-    <sprite>sprites\government_active</sprite>
-    <sprite>sprites\government_inactive</sprite>
-    <sprite>sprites\habitat_active</sprite>
-    <sprite>sprites\habitat_inactive</sprite>
-    <sprite>sprites\market_active</sprite>
-    <sprite>sprites\market_inactive</sprite>
-    <sprite>sprites\water_inactive</sprite>
-    <sprite>sprites\water_active</sprite>
-    <sprite>sprites\button_government</sprite>
-    <sprite>sprites\button_generic</sprite>
-    <sprite>sprites\title</sprite>
-    <sprite>sprites\sliderbar</sprite>
-    <sprite>sprites\sliderTab</sprite>
-    <sprite>sprites\options</sprite>
-    <sprite>sprites\creditButton</sprite>
-    <sprite>sprites\startButton</sprite>
-    <sprite>sprites\sprite19</sprite>
-    <sprite>sprites\gameName</sprite>
-    <sprite>sprites\camera</sprite>
+    <sprite>sprites\sprite0</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgMAP</background>
-    <background>background\bgDirt</background>
-    <background>background\bgRocks</background>
-    <background>background\bgTrees</background>
-    <background>background\bgNPCSpawn</background>
-    <background>background\bgObstacle</background>
-    <background>background\titleScreen</background>
-    <background>background\options_Window</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\creditScr.gml</script>
-    <script>scripts\move.gml</script>
+    <script>scripts\script0.gml</script>
   </scripts>
-  <fonts name="fonts">
-    <font>fonts\fnt_button</font>
-    <font>fonts\crd_font</font>
-  </fonts>
   <objects name="objects">
     <object>objects\States</object>
-    <object>objects\btn_government</object>
-    <object>objects\btn_generic</object>
-    <object>objects\mapGrid</object>
-    <object>objects\titleSound</object>
-    <object>objects\StellarMission</object>
-    <object>objects\creditText</object>
-    <object>objects\cam_obj</object>
-    <object>objects\btn_soundOff</object>
-    <object>objects\btn_soundOn</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\Title_Screen</room>
-    <room>rooms\Map</room>
-    <room>rooms\Credits</room>
-    <room>rooms\optionsRoom</room>
+    <room>rooms\Room</room>
   </rooms>
-  <constants number="2">
-    <constant name="cellWidth">50</constant>
-    <constant name="cellHite">50</constant>
-  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
