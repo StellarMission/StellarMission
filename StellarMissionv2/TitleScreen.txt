@@ -1,0 +1,13 @@
+//**COPY AND PASTE CODE BELOW IN TITLE SCREEN -> CODE CREATION**//
+
+global.totalMoney = 0;
+global.totalFood = 0;
+global.totalWater = 0;
+global.totalEnergy = 0;
+global.cycleTime = 1; // 30 seconds
+global.decay = 50; // amount of HP reduced from each building each cycle
+global.prodRate = .25; // rate each stat goes up when combined with currentHP
+global.totalPopulation = 0;
+global.foodUsage = global.totalPopulation * .15;
+global.waterUsage = global.totalPopulation * .15;
+global.energyUsage = global.totalPopulation * .15;
